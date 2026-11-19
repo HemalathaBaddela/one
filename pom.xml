@@ -26,10 +26,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
+		<repository>
+  <id>hema-feed</id>
+  <url>https://pkgs.dev.azure.com/hemabaddela24/myproject/_packaging/hema-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 		
 		<repository>
 		    <id>nexusRepo</id>
