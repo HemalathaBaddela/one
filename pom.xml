@@ -25,12 +25,17 @@
 
 	</dependencies>
 	
-	<distributionManagement>
-		<repositories>
-    <repository>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
+    <distributionManagement>
+            <repository>
+  <id>hema-feed</id>
+  <url>https://pkgs.dev.azure.com/hemabaddela24/myproject/_packaging/hema-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 
     <repository>
         <id>another-repository</id>
